@@ -13,9 +13,20 @@ The React app shows how to use these 4 endpoints. Everything has been done in a 
 
 ## Run the example
 
+We want to start the API server first, THEN the React server:
+
 - Clone the repo
-- Open a terminal and `cd cyf-todos-api` then `npm run start` to start the API locally.
-- Open another terminal and `cd cyf-todos-app` then `yarn start` to start the React app locally.
+- Open a terminal and `cd cyf-todos-api` 
+- then type `npm install` to install the necessary packages for this Express app
+- then type `npm start` to start the API locally.
+- Open another terminal and type `cd cyf-todos-app` 
+- then type `npm install` to install the necessary packages for this React app
+- then type `npm start` to start the React app locally.
+- reply with "y" when it asks if you want to start on a different port.
+
+Your browser should now launch to view the React app.
+
+(Then next time you run this example system from the same directories, you can miss out the `npm install` steps.)
 
 ## I want to do it myself, how do I start?
 
